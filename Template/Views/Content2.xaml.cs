@@ -5,9 +5,9 @@ using System.Windows.Controls;
 
 namespace Template.Views;
 
-public partial class Content : ContentControl
+public partial class Content2 : ContentControl
 {
-    public Content()
+    public Content2()
     {
         InitializeComponent();
     }

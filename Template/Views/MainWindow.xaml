@@ -48,21 +48,21 @@
                              Foreground="#efde93" 
                              FontSize="25"
                              Style="{StaticResource MenuButtonTheme}"
-                             Checked="Nothing"
+                             Checked="Content1"
                              x:Name="Button1"/>
                 <RadioButton Content="Button 2" 
                              Height="50" 
                              Foreground="#efde93" 
                              FontSize="25"
                              Style="{StaticResource MenuButtonTheme}"
-                             Checked="Nothing"
+                             Checked="Content2"
                              x:Name="Button2"/>
                 <RadioButton Content="Button 3" 
                              Height="50" 
                              Foreground="#efde93" 
                              FontSize="25"
                              Style="{StaticResource MenuButtonTheme}"
-                             Checked="Nothing"
+                             Checked="Content3"
                              x:Name="Button3"/>
             </StackPanel>
             <StackPanel Grid.Row="0" Grid.Column="1" 
@@ -178,4 +178,12 @@
     </Border>
     </Border>
 </Window>
-<!-- Elhamdulillah -->
+
+<!-- 
+Blush Roze: #FFA5AB
+Napels Yellow: #efde93
+Verdigris: #28AFB0
+Koolstof Zwart: #333333
+Donker Zwart: #1C1C1C
+
+Elhamdulillah -->

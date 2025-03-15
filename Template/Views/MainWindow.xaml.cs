@@ -34,9 +34,19 @@ namespace Template.Views
             Navigator.Navigate(new Instellingen());
         }
 
-        private void Nothing(object sender, RoutedEventArgs e)
+        private void Content1(object sender, RoutedEventArgs e)
         {
-            Navigator.Navigate(new Content());
+            Navigator.Navigate(new Content1());
+        }
+        
+        private void Content2(object sender, RoutedEventArgs e)
+        {
+            Navigator.Navigate(new Content2());
+        }
+        
+        private void Content3(object sender, RoutedEventArgs e)
+        {
+            Navigator.Navigate(new Content3());
         }
         
         private void Minimaliseren_Click(object sender, RoutedEventArgs e)
