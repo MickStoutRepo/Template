@@ -7,6 +7,14 @@
 - <b>static</b> declareer je als je wilt dat de functie hetzelfde blijft tijdens alle instances en klasses<br>
 - 
 
+Colorscheme (ijssalon vibes)
+
+Blush Roze: #FFA5AB
+Napels Yellow: #efde93
+Verdigris: #28AFB0
+Koolstof Zwart: #333333
+Donker Zwart: #1C1C1C
+
 - Routering initializatie:<br>
   <code> static class Navigator
     { private static ContentControl MainContent => ((MainWindow)Application.Current.MainWindow).MainContent;

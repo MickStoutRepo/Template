@@ -11,17 +11,26 @@
                     <Grid VerticalAlignment="Stretch"
                           HorizontalAlignment="Stretch"
                           Background="{TemplateBinding Background}">
-                        <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                        <ContentPresenter HorizontalAlignment="center" 
+                                          VerticalAlignment="Center" 
+                                          Margin="10,0,10,0"/>
                     </Grid>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-        <Setter Property="Background" Value="Transparent"/>
-        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Background" 
+                Value="Transparent"/>
+        <Setter Property="BorderThickness" 
+                Value="1"/>
+        <Setter Property="BorderBrush" 
+                Value="#333333"/>
         <Style.Triggers>
-            <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="#d7e9f4"/>
-                <Setter Property="Foreground" Value="#34143e"/>
+            <Trigger Property="IsMouseOver" 
+                     Value="True">
+                <Setter Property="Background" 
+                        Value="#FFA5AB"/>
+                <Setter Property="Foreground" 
+                        Value="#333333"/>
             </Trigger>
         </Style.Triggers>
     </Style>

@@ -6,7 +6,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:Template.Views"
       mc:Ignorable="d"
-      d:DesignHeight="450" d:DesignWidth="800">
+      d:DesignHeight="400" d:DesignWidth="800">
     <Grid Margin="20">
         <Border 
             BorderBrush="#333333" 
@@ -15,7 +15,7 @@
             Padding="40" 
             Margin="25" 
             CornerRadius="20" 
-            MaxHeight="295px">
+            MaxHeight="310px">
         <StackPanel>
             <TextBlock 
                 Foreground="#333333" 
